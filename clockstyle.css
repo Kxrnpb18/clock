@@ -1,0 +1,56 @@
+body {
+  background: #000;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+}
+
+section {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 300px;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.time {
+  display: flex;
+}
+
+.time-colon {
+  display: flex;
+  margin: 0 5px;
+}
+
+.time-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.num {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 14px;
+  color: #000;
+  margin-top: 5px;
+}
+
+.colon {
+  position: relative;
+  font-size: 48px;
+  color: #000;
+}
+
+.am_pm {
+  font-size: 20px;
+  color: #000;
+  margin-left: 10px;
+}
